@@ -2,7 +2,7 @@
 
 Steps to get telegram CLI on python2
 
-# Create pyenv
+### Create pyenv
 
 $ cd ~
 $ wget https://bootstrap.pypa.io/get-pip.py
@@ -15,26 +15,26 @@ $ echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
 $ source ~/.bashrc
 $ mkvirtualenv pytg -p python2
 
-# Install telegramCLI
-# https://github.com/vysheng/tg
+### Install telegramCLI
+### https://github.com/vysheng/tg
 
 $ git clone --recursive https://github.com/vysheng/tg.git && cd tg
 
-# Install telegramCLI python support
+### Install telegramCLI python support
 
 $ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson-dev libpython-dev make 
 
 $ ./configure
 $  make
 
-# Install the Telegram python wrapper (from @vysheng)
-# https://github.com/luckydonald/pytg
+### Install the Telegram python wrapper (from @vysheng)
+### https://github.com/luckydonald/pytg
 
 $ pip install pytg
 
 then see https://github.com/luckydonald/pytg for hello world
 
-//gotchas
+### gotchas
 
 if dpkg is locked 
 
